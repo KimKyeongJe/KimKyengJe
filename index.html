@@ -1,40 +1,67 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="ko">
- <head>
-  <meta charset="utf-8">
-  <title> 2023.12.13 </title>
- </head>
- <body>
-   <header>
-    <h1>기업맞춤 프론트엔드 웹디자인</h1>
-   </header>
-   <nav>
-     <h2>본 과정 이용메뉴</h2>
-     <a>그래픽과정</a>
-     <a>HTML과정</a>
-     <a>개발과정</a>
-   </nav>
-   <main>
-    <section>
-      <h2>그래픽과정</h2>
-      <p>제일 처음 배우는 과정으로 그래픽프로그램을 학습합니다</p>
-       <section>
-        <h3>피그마</h3>
-        <p>협업용 그래픽 툴로서 현재 많이 사용하고 있는 프로그램입니다</p>
-     </section>
-    </section>
-    <section>
-      <h2>HTML과정</h2>
-      <p>웹문서를 만드는 언어인 HTML을 학습합니다</p>
-    </section>
-    <section>
-      <h2>개발과정</h2>
-      <p>자바를 활용한 기본 웹개발을 학습합니다</p>
-    </section>
-   </main>
-   <footer>
-     <address>yuzu8593@gmail.com</address>
-     <small>copyright allright reserved.</small>
-   </footer>
- </body>
+
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title>Mobile</title>
+    <link rel="stylesheet" href="./sytle/reset.css">
+    <link rel="stylesheet" href="./sytle/comon.css">
+</head>
+
+<body>
+    <div class="wrap">
+        <header id="header">
+            <h1>Mobile</h1>
+            <a href="#" id="btn">button</a>
+            <a href="#" id="toggleBtn">toggle</a>
+        </header>
+        <div id="toggleNav">
+            <ul>
+                <li><a href="#">버튼</a></li>
+                <li><a href="#">버튼</a></li>
+                <li><a href="#">버튼</a></li>
+                <li><a href="#">버튼</a></li>
+                <li><a href="#">버튼</a></li>
+                <li><a href="#">버튼</a></li>
+                <li><a href="#">버튼</a></li>
+            </ul>
+        </div>
+        <div id="topNav">
+            <ul>
+                <li><a href="#">버튼</a></li>
+                <li><a href="#">버튼</a></li>
+                <li><a href="#">버튼</a></li>
+                <li><a href="#">버튼</a></li>
+            </ul>
+        </div>
+        <div id="bottomNav">
+            <ul>
+                <li><a href="#">버튼</a></li>
+                <li><a href="#">버튼</a></li>
+                <li><a href="#">버튼</a></li>
+                <li><a href="#">버튼</a></li>
+                <li><a href="#">버튼</a></li>
+            </ul>
+        </div>
+        <section id="mainSection">
+            <header class="inner_section">
+                <div id="inner_main">
+                    <h2>Lorem Ipsum</h2>
+                    <p><time datetime="2024-02-28">2024-02-28</time> Birthday</p>
+                </div>
+            </header>
+            <div id="content">
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+            </div>
+        </section>
+        <footer id="footer">
+            <address>HTML + CSS Basic</address>
+            <small>Website Layout Basic</small>
+        </footer>
+    </div>
+</body>
+
 </html>
